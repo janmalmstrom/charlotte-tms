@@ -109,6 +109,11 @@ Roughly 30% of people with major depressive disorder do not respond adequately t
 - "cure" (TMS is a treatment, not a cure)
 - "guaranteed results"
 - Any language that overpromises outcomes — be honest about response rates
+- "no side effects" — headaches and scalp discomfort are common; never claim TMS is side-effect-free
+- "stops PTSD" or "FDA-cleared for PTSD" — TMS is NOT FDA-cleared for PTSD; PTSD is off-label only
+- "replaces medication" or "stop your medication" — most patients continue medication during/after TMS; dose reduction is possible for some, not a standard promise
+- "reduces suicidal thoughts" as a primary selling point — TMS treats depression; suicidal ideation may improve as a consequence; never market suicidality reduction directly
+- "treats migraines" as a TMS benefit — off-label only; disclose if asked, with clear off-label framing
 
 ---
 
@@ -173,3 +178,11 @@ Roughly 30% of people with major depressive disorder do not respond adequately t
 8. Choosing a TMS Clinic
 9. TMS vs Other Treatments
 10. Accelerated TMS & New Protocols
+11. Audience-Specific (Veterans, Seniors, Teens, Women, Men, TRD candidates)
+
+**Content Cube accuracy rules added 2026-09-24:**
+- FDA clearances confirmed: depression (2008), OCD (2018 Brainsway H7), anxious depression (2021 NeuroStar), smoking cessation (2020)
+- PTSD: off-label only — no FDA clearance, never imply clearance
+- Side effects exist: headaches (~30% of patients) and scalp discomfort are the most common reported effects in trials
+- Medication: most patients stay on medication during TMS; "replaces medication" is not an accurate claim for most patients
+- Migraines: off-label, niche — only address if directly asked, with clear off-label disclosure
