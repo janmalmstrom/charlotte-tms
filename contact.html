@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request TMS Consultation Charlotte | Charlotte TMS Clinic</title>
+  <meta name="description" content="Request a free TMS consultation in Charlotte, NC. We verify your insurance coverage and determine if you're a candidate — no commitment required.">
+  <link rel="canonical" href="https://charlottetmsclinic.com/contact.html">
+  <link rel="stylesheet" href="style.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="logo">Charlotte <span>TMS Clinic</span></div>
+  <a href="tel:7045550100" class="header-phone">📞 (704) 555-0100</a>
+</header>
+<nav>
+  <a href="/">Home</a>
+  <a href="/services.html">Conditions Treated</a>
+  <a href="/faq/">FAQ</a>
+  <a href="/contact.html" class="active">Request Consultation</a>
+</nav>
+
+<section class="hero" style="padding:48px 20px 40px;">
+  <div class="hero-badge">Free Consultation · Insurance Verification Included</div>
+  <h1>Find Out If TMS<br><span>Is Right for You</span></h1>
+  <p class="hero-sub">A physician reviews your treatment history and verifies your insurance coverage — at no cost, no commitment.</p>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <div class="form-card">
+        <h3 style="color:var(--purple-dark);font-size:1.2rem;font-weight:800;margin-bottom:24px;">Request a Consultation</h3>
+        <form id="contact-form" action="https://media.simaroa.com/api/media/leads" method="POST">
+          <div class="form-group">
+            <label for="c-name">Full Name *</label>
+            <input type="text" id="c-name" name="name" placeholder="Jane Smith" required>
+          </div>
+          <div class="form-group">
+            <label for="c-phone">Phone Number *</label>
+            <input type="tel" id="c-phone" name="phone" placeholder="(704) 555-1234" required>
+          </div>
+          <div class="form-group">
+            <label for="c-email">Email Address</label>
+            <input type="email" id="c-email" name="email" placeholder="jane@email.com">
+          </div>
+          <div class="form-group">
+            <label for="c-condition">Primary Condition *</label>
+            <select id="c-condition" name="service" required>
+              <option value="">Select a condition...</option>
+              <option value="treatment-resistant-depression">Treatment-Resistant Depression</option>
+              <option value="anxious-depression">Anxious Depression</option>
+              <option value="ocd">OCD</option>
+              <option value="smoking-cessation">Smoking Cessation</option>
+              <option value="other">Other / Not Sure</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="c-insurance">Insurance Provider</label>
+            <input type="text" id="c-insurance" name="insurance" placeholder="e.g. BCBS, Cigna, Aetna, UHC, Medicare">
+          </div>
+          <div class="form-group">
+            <label for="c-history">Treatment History (optional)</label>
+            <textarea id="c-history" name="message" placeholder="Which antidepressants have you tried? How long have you been experiencing symptoms?"></textarea>
+          </div>
+          <input type="hidden" name="site" value="charlotte-tms">
+          <button type="submit" class="btn-submit">Send Request →</button>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <h3>What Happens Next</h3>
+
+        <div class="contact-item">
+          <div class="contact-item-icon">📞</div>
+          <div>
+            <strong>We call you within 1 business day</strong>
+            <span>A staff member calls to gather basic information and schedule your physician consultation.</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-item-icon">🏥</div>
+          <div>
+            <strong>Insurance verification</strong>
+            <span>We contact your insurer directly to verify TMS coverage and get your out-of-pocket estimate before you commit to anything.</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-item-icon">👨‍⚕️</div>
+          <div>
+            <strong>Physician consultation</strong>
+            <span>A board-certified psychiatrist reviews your diagnosis and medication history to confirm you're a TMS candidate and identify any contraindications.</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-item-icon">📋</div>
+          <div>
+            <strong>Honest recommendation</strong>
+            <span>We'll tell you directly whether TMS is likely to help your specific situation — including if you're not a good candidate. No pressure to proceed.</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-item-icon">📍</div>
+          <div>
+            <strong>Charlotte, NC</strong>
+            <span>Serving Charlotte, Concord, Gastonia, Huntersville, Matthews, Fort Mill, and Rock Hill.</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-item-icon">🕐</div>
+          <div>
+            <strong>Hours</strong>
+            <span>Monday – Friday, 8:00 AM – 5:00 PM ET</span>
+          </div>
+        </div>
+
+        <div class="disclaimer" style="margin-top:8px;">
+          <strong>Prefer to call?</strong> Reach us at <a href="tel:7045550100" style="color:var(--purple-dark);font-weight:700;">(704) 555-0100</a>. We typically answer during business hours.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script>
+  const form = document.getElementById('contact-form')
+  form.addEventListener('submit', async function(e) {
+    e.preventDefault()
+    const btn = form.querySelector('.btn-submit')
+    btn.textContent = 'Sending...'
+    btn.disabled = true
+    try {
+      const data = Object.fromEntries(new FormData(form))
+      const res = await fetch(form.action, {
+        method: 'POST',
+        body: JSON.stringify(data),
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }
+      })
+      if (res.ok) {
+        form.innerHTML = '<div style="text-align:center;padding:40px 20px;"><div style="font-size:2rem;margin-bottom:16px;">&#x2705;</div><h3 style="color:var(--purple-dark);font-size:1.2rem;margin-bottom:8px;">Request received.</h3><p style="color:var(--muted);font-size:.95rem;">We\'ll call you within one business day. You can also reach us at <a href="tel:7045550100" style="color:var(--sky-dark);font-weight:700;">(704) 555-0100</a>.</p></div>'
+      } else {
+        btn.textContent = 'Send Request →'
+        btn.disabled = false
+        alert('Something went wrong. Please call us at (704) 555-0100.')
+      }
+    } catch {
+      btn.textContent = 'Send Request →'
+      btn.disabled = false
+      alert('Something went wrong. Please call us at (704) 555-0100.')
+    }
+  })
+</script>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-col footer-nap">
+      <h4>Charlotte TMS Clinic</h4>
+      <p><strong>Phone:</strong> (704) 555-0100</p>
+      <p><strong>Area:</strong> Charlotte, NC</p>
+      <p><strong>Hours:</strong> Mon–Fri 8am–5pm</p>
+    </div>
+    <div class="footer-col">
+      <h4>Conditions Treated</h4>
+      <a href="/services.html">Treatment-Resistant Depression</a>
+      <a href="/services.html">OCD</a>
+      <a href="/services.html">Anxious Depression</a>
+      <a href="/services.html">Smoking Cessation</a>
+    </div>
+    <div class="footer-col">
+      <h4>Service Area</h4>
+      <p>Charlotte, NC</p>
+      <p>Concord, NC</p>
+      <p>Gastonia, NC</p>
+      <p>Fort Mill, SC</p>
+      <p>Rock Hill, SC</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="/">Home</a>
+      <a href="/services.html">Conditions Treated</a>
+      <a href="/faq/">FAQ</a>
+      <a href="/contact.html">Request Consultation</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Charlotte TMS Clinic — Charlotte, NC</span>
+    <span>Medical Disclaimer: Not a substitute for professional medical advice.</span>
+  </div>
+</footer>
+
+</body>
+</html>
