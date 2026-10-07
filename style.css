@@ -424,7 +424,7 @@ nav a:hover, nav a.active { color: var(--sky); background: rgba(255,255,255,.05)
 }
 
 /* ── Article (FAQ pages) ──────────────────────────────────────────────── */
-.faq-article { font-size: 1rem; line-height: 1.75; color: var(--text); }
+.faq-article { font-size: 1.0625rem; line-height: 1.85; color: var(--text); }
 
 .faq-article h2 {
   font-size: 1.25rem;
@@ -448,7 +448,7 @@ nav a:hover, nav a.active { color: var(--sky); background: rgba(255,255,255,.05)
   padding: 6px 0 6px 28px;
   position: relative;
   border-bottom: 1px solid #f1f5f9;
-  font-size: .95rem;
+  font-size: 1.0625rem;
 }
 
 .faq-article ul li::before {
