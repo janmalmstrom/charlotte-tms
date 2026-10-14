@@ -5,8 +5,16 @@
     <link>https://charlottetmsclinic.com/</link>
     <description>Physician answers to TMS therapy questions for Charlotte, NC patients.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Oct 2026 17:14:06 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 17:16:06 GMT</lastBuildDate>
     <atom:link href="https://charlottetmsclinic.com/rss.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Is TMS therapy safe?</title>
+    <link>https://charlottetmsclinic.com/faq/is-tms-therapy-safe.html</link>
+    <guid isPermaLink="true">https://charlottetmsclinic.com/faq/is-tms-therapy-safe.html</guid>
+    <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+    <category>Safety & Side Effects</category>
+    <description><![CDATA[Is TMS therapy safe? — answered by Charlotte TMS Clinic physicians at charlottetmsclinic.com]]></description>
+  </item>
   <item>
     <title>Is psychiatrist-supervised TMS better than technician-only?</title>
     <link>https://charlottetmsclinic.com/faq/is-psychiatrist-supervised-tms-better-than-technician-only.html</link>
@@ -158,14 +166,6 @@
     <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
     <category>TMS vs Other Treatments</category>
     <description><![CDATA[TMS versus ECT which is less invasive? — answered by Charlotte TMS Clinic physicians at charlottetmsclinic.com]]></description>
-  </item>
-  <item>
-    <title>TMS versus ketamine which is better for treatment-resistant depression?</title>
-    <link>https://charlottetmsclinic.com/faq/tms-versus-ketamine-which-is-better-for-treatment-resistant-depression.html</link>
-    <guid isPermaLink="true">https://charlottetmsclinic.com/faq/tms-versus-ketamine-which-is-better-for-treatment-resistant-depression.html</guid>
-    <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-    <category>TMS vs Other Treatments</category>
-    <description><![CDATA[TMS versus ketamine which is better for treatment-resistant depression? — answered by Charlotte TMS Clinic physicians at charlottetmsclinic.com]]></description>
   </item>
   </channel>
 </rss>
